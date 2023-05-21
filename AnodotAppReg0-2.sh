@@ -492,18 +492,17 @@ else
     echo "$role_assignment"
 fi
 
-
 echo -e " >>>>>>>>>>>>>>>>>>>>>>>>>>>>>your details are as follows<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< "
 echo ""
-echo " your client ID is: $clientid \n"
+echo " your client ID is: $clientid\n"
 echo ""
-echo " STORAGE_ACCOUNT_NAME $STORAGE_ACCOUNT_NAME \n"
+echo " STORAGE_ACCOUNT_NAME $STORAGE_ACCOUNT_NAME\n"
 echo ""
-echo " CONTAINER_NAME $CONTAINER_NAME \n"
+echo " CONTAINER_NAME $CONTAINER_NAME\n"
 echo ""
-echo " clientsecret $clientsecret \n"
+echo " clientsecret $clientsecret\n"
 echo ""
 tanetID=$(az account show --query tenantId --output tsv)
-echo " your tanent id id $tanetID \n"
+echo " your tanent id id $tanetID\n"
 
 
